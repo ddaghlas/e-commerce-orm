@@ -34,21 +34,30 @@
 
 - Installation requires the use of the [MySQL2](https://www.npmjs.com/package/mysql2) and [Sequelize](https://www.npmjs.com/package/sequelize) packages to connect the Express.js API to a MySQL database and the [dotenv](https://www.npmjs.com/package/dotenv) package to use environment variables to store sensitive data.
 
-Use the `schema.sql` file in the `db` folder to create a private database with MySQL shell commands. Use environment variables to store sensitive data like the MySQL username, password, and database name.
+- Use the `schema.sql` file in the `db` folder to create a private database with MySQL shell commands. Use environment variables to store sensitive data like the MySQL username, password, and database name.
+
+
 
 The following animation shows the application's GET routes to return all categories, all products, and all tags being tested in Insomnia Core:
 
-![In Insomnia Core, the user tests “GET tags,” “GET Categories,” and “GET All Products.”.](./Assets/13-orm-homework-demo-01.gif)
+![In Insomnia Core, the user tests “GET tags,” “GET Categories,” and “GET All Products.”.](./images/GET-cpt.gif)
 
 The following animation shows the application's GET routes to return a single category, a single product, and a single tag being tested in Insomnia Core:
 
-![In Insomnia Core, the user tests “GET tag by id,” “GET Category by ID,” and “GET One Product.”](./Assets/13-orm-homework-demo-02.gif)
+![In Insomnia Core, the user tests “GET tag by id,” “GET Category by ID,” and “GET One Product.”](./images/GET-single.gif)
 
 The following animation shows the application's POST, PUT, and DELETE routes for categories being tested in Insomnia Core:
 
-![In Insomnia Core, the user tests “DELETE Category by ID,” “CREATE Category,” and “UPDATE Category.”](./Assets/13-orm-homework-demo-03.gif)
+![In Insomnia Core, the user tests “DELETE Category by ID,” “CREATE Category,” and “UPDATE Category.”](./images/POST-category-orm.gif)
 
-Your walkthrough video should also show the POST, PUT, and DELETE routes for products and tags being tested in Insomnia Core.
+The following animation shows the application's POST, PUT, and DELETE routes for products being tested in Insomnia Core:
+
+![In Insomnia Core, the user tests “DELETE Products by ID,” “CREATE Product,” and “UPDATE Product.”](./images/POST-prod.gif)
+
+The following animation shows the application's POST, PUT, and DELETE routes for tags being tested in Insomnia Core:
+
+![In Insomnia Core, the user tests “DELETE Tags by ID,” “CREATE Tags,” and “UPDATE Tags.”](./images/POST-tags.gif)
+
 
 ### Associations
 
