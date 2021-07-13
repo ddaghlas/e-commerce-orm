@@ -9,9 +9,7 @@
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Contributing](#contributing)
   * [Tests](#tests)
-  * [License](#license)
 
 
 ## Installation
@@ -40,23 +38,23 @@
 
 The following animation shows the application's GET routes to return all categories, all products, and all tags being tested in Insomnia Core:
 
-![In Insomnia Core, the user tests “GET tags,” “GET Categories,” and “GET All Products.”.](./images/GET-cpt.gif)
+[![In Insomnia Core, the user tests “GET tags,” “GET Categories,” and “GET All Products.”](./images/GET-cpt.gif)](https://drive.google.com/file/d/1WuZOmkvJNdkTAQSPsInmezZt_ygdDZRM/view)
 
 The following animation shows the application's GET routes to return a single category, a single product, and a single tag being tested in Insomnia Core:
 
-![In Insomnia Core, the user tests “GET tag by id,” “GET Category by ID,” and “GET One Product.”](./images/GET-single.gif)
+[![In Insomnia Core, the user tests “GET tag by id,” “GET Category by ID,” and “GET One Product.”](./images/GET-single.gif)](https://drive.google.com/file/d/1gKROd16T58706euqViQ5JSMisEGvi72i/view)
 
 The following animation shows the application's POST, PUT, and DELETE routes for categories being tested in Insomnia Core:
 
-![In Insomnia Core, the user tests “DELETE Category by ID,” “CREATE Category,” and “UPDATE Category.”](./images/POST-category-orm.gif)
+[![In Insomnia Core, the user tests “DELETE Category by ID,” “CREATE Category,” and “UPDATE Category.”](./images/POST-category-orm.gif)](https://drive.google.com/file/d/1z0HgvlkvdJnoRycJwVZD2D0A3wKKuw7U/view)
 
 The following animation shows the application's POST, PUT, and DELETE routes for products being tested in Insomnia Core:
 
-![In Insomnia Core, the user tests “DELETE Products by ID,” “CREATE Product,” and “UPDATE Product.”](./images/POST-prod.gif)
+[![In Insomnia Core, the user tests “DELETE Products by ID,” “CREATE Product,” and “UPDATE Product.”](./images/POST-prod.gif)](https://drive.google.com/file/d/1G1Ic27BRsD1tIumHM2cf7zrj7P3trUmD/view)
 
 The following animation shows the application's POST, PUT, and DELETE routes for tags being tested in Insomnia Core:
 
-![In Insomnia Core, the user tests “DELETE Tags by ID,” “CREATE Tags,” and “UPDATE Tags.”](./images/POST-tags.gif)
+[![In Insomnia Core, the user tests “DELETE Tags by ID,” “CREATE Tags,” and “UPDATE Tags.”](./images/POST-tags.gif)](https://drive.google.com/file/d/1EgZMY02ixI435sAslXrdwbak1gOxAFyL/view)
 
 
 ### Associations
